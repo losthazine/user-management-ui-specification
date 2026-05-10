@@ -16,7 +16,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 ### 3. UI Components & Behavior
 
 ##### 3.1 Top Action Bar
-+ "+" New User Button
++ "+ New User" Button
 
     + Type: Primary Button.
 
