@@ -14,7 +14,8 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 + Action Buttons: "+ New User" is enabled. "Save User" is disabled until a form is active and modified.
 
 ### 3. UI Components & Behavior
-    3.1 Top Action Bar
+
+3.1 Top Action Bar
 + + New User Button
 
     + Type: Primary Button.
