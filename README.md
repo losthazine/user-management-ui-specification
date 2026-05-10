@@ -15,7 +15,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 
 ### 3. UI Components & Behavior
 
-3.1 Top Action Bar
+##### 3.1 Top Action Bar
 + + New User Button
 
     + Type: Primary Button.
@@ -36,7 +36,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 
     + Behavior: Submits the data currently populated in the "User Details Form". It should be disabled unless the form is dirty (data has been entered or changed) and all required validation rules are met.
 
-    3.2 Master View: User Data Grid
+##### 3.2 Master View: User Data Grid
 + Type: Interactive Data Table.
 
 + Columns: * ID (Numeric)
@@ -55,7 +55,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 
 + Row Interaction (Selection): Clicking a row highlights it (e.g., light blue background) and populates the User Details Form on the right with that user's data.
 
-    3.3 Detail View: User Form Panel
+##### 3.3 Detail View: User Form Panel
 + Title: Dynamic. Displays "New User" when creating a record, or "Edit User" (or the specific Username) when a grid row is selected.
 
 + Form Fields:
@@ -77,7 +77,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
     + Enabled: Checkbox. Determines if the user account is active.
 
 ### 4. Key Workflows
-    4.1 Creating a New User
+##### 4.1 Creating a New User
 1. User clicks "+ New User".
 
 2. Form clears and title updates to "New User".
@@ -88,7 +88,7 @@ The User Management Screen utilizes a classic Master-Detail layout. It allows ad
 
 5. System: Validates input. If successful, saves to backend, displays a success toast/message, adds the new user to the Data Grid, and highlights the newly created row.
 
-    4.2 Editing an Existing User
+##### 4.2 Editing an Existing User
 1. User clicks a row in the Data Grid (e.g., ID 1, AdminUser).
 
 2. The row becomes highlighted.
